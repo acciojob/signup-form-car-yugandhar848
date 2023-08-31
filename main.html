@@ -8,6 +8,41 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Signup Form Car</h1>
+	<form action="#" method="post">
+		<lable for="Name">Name:</lable>
+	<input type="Text" id="Name" placeholder="Name" required><br>
+		<lable for="Email">Email:</lable>
+	<input type="Email" id="email" placeholder="Email" required><br>
+		<lable for="Gender">Gender:
+			<lable for="Male">Male
+	<input type="radio" id="Gender_m" value="male" required></lable>
+			<label for="Female">Female
+	<input type="radio" id="Gender_f" value="Female"  placeholder="-" required><br>
+			</lable>
+		<lable for="car Brands">Car Brands:</lable>
+		<select id="cars"  name ="cars"required>
+			<option value="--Please choose an option--">--Please choose an option--</option>
+			<option>BMW</option>
+			<option>AUDI</option>
+			<option>FERRORI</option>
+		</select><br>
+		<lable for="Age">Age:</lable>
+	<input type="number" id="age" placeholder="Age" required><br>
+
+		<lable for="DOB">DOB:</lable>
+	<input type="date" id="dob" placeholder="-" required><br>
+		<lable for="Phone Number">Phone Number:</lable>
+	<input type="tel" id="tel" placeholder="xxx-xxx-xxxx" ><br>
+		<lable for="Password">Password:</lable>
+	<input type="password" id="password" placeholder="password" required><br>
+
+		<lable for="I agree to the TOS">I agree to the TOS:</lable>
+	<input type="checkbox" id="tos" placeholder="-" required><br>
+		<button>
+			<input type="submit">
+		</button>
+		</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
